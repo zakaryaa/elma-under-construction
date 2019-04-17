@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Coming soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+  <link rel="stylesheet" href="../node_modules/jquery-modal/jquery.modal.css" />
+  <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
+  <link rel="stylesheet" href="../assets/style/utils.css" />
+  <link rel="stylesheet" href="../assets/style/font.css" />
+  <link rel="stylesheet" href="../assets/style/style.css" />
+  <link rel="stylesheet" href="../assets/style/custom.css" />
+</head>
+
+<body class="light" data-mcs-theme="minimal-dark">
+  <!-- <div id="particles-js"></div> -->
+
+  <div class="wrapper" id="content">
+    <content>
+      <h1 class="title">UNDER CONSTRUCTION</h1>
+      <p class="description">
+        Make beauty appointements easy
+      </p>
+      <button class="red space button" id="modalButon">CONTACT</button>
+    </content>
+  </div>
+  <div class="modal" id="modal" data-mcs-theme="minimal-dark">
+    <div class="modal-close" id="closeModalButton">
+      <svg class="closeIcon">
+        <use xlink:href="../assets/images/close.svg#closeIcon"></use>
+      </svg>
+    </div>
+    <div class="modal-content row">
+      <div class="info twelve-sm four-md columns">
+        <h2 class="title">INFO</h2>
+        <p class="sub-title">
+          Elmadeal Maroc
+        </p>
+        <p class="content">
+          Votre partenaire pour vos rendez vous beauté.
+        </p>
+        <a class="content" href="mailto:info@elmadeal.com">info@elmadeal.com</a>
+      </div>
+      <div class="map twelve-sm eight-md columns">
+        <h2 class="title">MAP</h2>
+        <div id="map" style="width:100%;height:333px;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?libraries=geometry&amp;v=3.26&amp;key=AIzaSyBavBqRqL-Af58n62NNOY6b65xiEY4Npao">
+  </script>
+  <script src="../node_modules/jquery/dist/jquery.js"></script>
+  <script src="../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="../node_modules/particles.js/particles.js"></script>
+  <script src="../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/form-validation.js"></script>
+</body>
+
+</html>
